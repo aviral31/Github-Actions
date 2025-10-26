@@ -86,11 +86,4 @@ After a successful workflow run:
 * Visit **`http://<your-ec2-public-ip>`**
 * You should see your **HTML application** served via **Nginx**
 
----
-
----
-
-
----
-
 > 🏁 *“Automate the boring stuff — Deploy with confidence!”*
