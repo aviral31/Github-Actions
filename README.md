@@ -25,11 +25,9 @@ The pipeline automates the entire process — from fetching the latest code, pac
 ### Workflow Stages
 | Stage | Description |
 |--------|-------------|
-| **1️⃣ Checkout Code** | Uses `actions/checkout` to clone the repository. |
-| **2️⃣ Build** | Validates the HTML app (optional for static apps). |
-| **3️⃣ Package Artifact** | Compresses app files for transfer. |
-| **4️⃣ Deploy to EC2** | Copies the build files to the EC2 instance using `appleboy/scp-action`. |
-| **5️⃣ Restart Nginx** | Uses `appleboy/ssh-action` to move files to `/var/www/html` and restart Nginx. |
+| **Checkout Code** | Uses `actions/checkout` to clone the repository. |
+| **Build** | Validates the HTML app (optional for static apps). |
+| **Deploy to EC2** | Copies the build files to the EC2 instance using `appleboy/scp-action`. |
 
 ---
 
