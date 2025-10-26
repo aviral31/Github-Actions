@@ -94,7 +94,3 @@ After a successful workflow run:
 ---
 
 > 🏁 *“Automate the boring stuff — Deploy with confidence!”*
-
-```
-
----
