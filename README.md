@@ -26,7 +26,6 @@ The pipeline automates the entire process — from fetching the latest code, pac
 | Stage | Description |
 |--------|-------------|
 | **Checkout Code** | Uses `actions/checkout` to clone the repository. |
-| **Build** | Validates the HTML app (optional for static apps). |
 | **Deploy to EC2** | Copies the build files to the EC2 instance using `appleboy/scp-action`. |
 
 ---
