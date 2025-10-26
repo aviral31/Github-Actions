@@ -38,7 +38,7 @@ The pipeline automates the entire process — from fetching the latest code, pac
 | `EC2_USER`  | SSH username (usually `ubuntu` or `ec2-user`) |
 | `SSH_KEY`   | Private SSH key for EC2 access                |
 
-> 💡 Set these under **Settings → Secrets and variables → Actions** in your GitHub repository.
+> 💡 Set these under **Settings → Secrets and variables → Actions** in GitHub repository.
 
 ---
 
