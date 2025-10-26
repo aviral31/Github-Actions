@@ -6,7 +6,7 @@ This project demonstrates a complete **CI/CD pipeline** for deploying a **static
 
 ## 🧩 Project Overview
 
-- **Frontend:** Static HTML, CSS, JS  
+- **Frontend:** Static HTML  
 - **Web Server:** Nginx  
 - **CI/CD Tool:** GitHub Actions  
 - **Hosting:** AWS EC2 (Ubuntu)  
